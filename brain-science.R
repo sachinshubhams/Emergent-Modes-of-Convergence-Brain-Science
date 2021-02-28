@@ -345,8 +345,6 @@ ce3<-ce2+scale_x_continuous(limits=c(1980, 2020), breaks=seq(1980, 2020, 5))+sca
 
 ce4<-ce3+labs(title = "", x = "", y = "")
 
-ce4
-
 
 #Plotting for SACIP
 
@@ -375,13 +373,6 @@ sce3<-ce2+scale_x_continuous(limits=c(1980, 2020), breaks=seq(1980, 2020, 5))+sc
 
 sce4<-ce3+labs(title = "", x = "", y = "")
 
-
-#e5<-e4+ scale_color_manual(name = "Y series")
-#par(mfrow=c(1,3))
-#e5
-#ce4
-#Fraction of articles featuring cross-domain combinations,f#(t|z)
-#plot_grid(e5, ce4,ce4, align = "h", nrow = 3, rel_heights = c(1/2, 1/2, 1/2),label_y ="" )
 grid.arrange(arrangeGrob(e5 + theme(legend.position="none"), 
                          ce4 + theme(legend.position="none"),
                          sce4 + theme(legend.position="none"),

@@ -7,6 +7,16 @@ R 4.0.3
 
 R-studio 1.4.1103
 
+kableExtra
+
+dplyr
+
+rms
+
+questionr
+
+readr
+
 moments 0.14
 
 car 3.0-10

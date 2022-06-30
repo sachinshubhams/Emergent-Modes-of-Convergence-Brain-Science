@@ -1,4 +1,10 @@
 # Brain-Science
+• Build model on cross-disciplinary, cross topic and interconnected social network of researchers publishing in brain science.
+
+• Gephi models on how researchers collaborated across different disciplines to publish papers
+
+• Logistic regression model of cross domain activity at article level, neighboring, shorter and far distance cross domain combination
+
 Data: https://osf.io/d97eu/
 
 Requirements:
